@@ -1,0 +1,27 @@
+1. Features:
+Add and manage multiple loans.
+Calculate monthly EMI automatically.
+View loan details and payment schedules.
+Record monthly EMI payments.
+Track paid and pending EMIs.
+Calculate outstanding loan balance.
+View complete payment history.
+Delete loan records.
+
+2. Project structure:
+Personal_Loan_EMI_Tracker/
+│
+├── main.py
+├── loan_manager.py
+├── emi_calculator.py
+├── payment_manager.py
+├── storage.py
+├── utils.py
+├── config.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── loans.json
+    └── payments.json
